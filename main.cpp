@@ -301,10 +301,10 @@ std::vector<Figure> init(){
     pts.emplace_back(Matrix(400, 400, 100));
     pts.emplace_back(Matrix(300, 400, 300));
     pts.emplace_back(Matrix(400, 400, 300));
-    pts.emplace_back(Matrix(300, 200, 100));
-    pts.emplace_back(Matrix(400, 200, 100));
-    pts.emplace_back(Matrix(300, 200, 300));
-    pts.emplace_back(Matrix(400, 200, 300));
+    pts.emplace_back(Matrix(300, 300, 100));
+    pts.emplace_back(Matrix(400, 300, 100));
+    pts.emplace_back(Matrix(300, 300, 300));
+    pts.emplace_back(Matrix(400, 300, 300));
     res.emplace_back(Figure(pts, 2));
     pts.clear();
 
@@ -312,10 +312,10 @@ std::vector<Figure> init(){
     pts.emplace_back(Matrix(150, 400, 100));
     pts.emplace_back(Matrix(50, 400, 300));
     pts.emplace_back(Matrix(150, 400, 300));
-    pts.emplace_back(Matrix(50, 200, 100));
-    pts.emplace_back(Matrix(150, 200, 100));
-    pts.emplace_back(Matrix(50, 200, 300));
-    pts.emplace_back(Matrix(150, 200, 300));
+    pts.emplace_back(Matrix(50, 250, 100));
+    pts.emplace_back(Matrix(150, 250, 100));
+    pts.emplace_back(Matrix(50, 250, 300));
+    pts.emplace_back(Matrix(150, 250, 300));
 
     res.emplace_back(Figure(pts, 2));
     return res;

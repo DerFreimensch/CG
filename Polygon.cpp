@@ -62,8 +62,8 @@ Polygon Polygon::getShadow(Matrix &LightSource, float maxY) {
         float z = i.getByRowCol(0, 2);
         float f = yl;
         if (f == 0.0f) f = 1;
-        x = x /** (maxY - yl) */- (xl * (y-maxY)) / f;
-        z = z /** (maxY - yl) */- (zl * (y-maxY)) / f;
+        x = x - (xl * (y-maxY)) / f;
+        z = z - (zl * (y-maxY)) / f;
         y = maxY;
         float mas[4] = {x, y, z, 1};
         i.fill(mas, 4);
