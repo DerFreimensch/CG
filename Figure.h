@@ -1,5 +1,5 @@
 //
-// Created by Павел Жуков on 27/11/2021.
+// Created by derfreimensch on 27/11/2021.
 //
 
 #ifndef CGCOURSE_FIGURE_H

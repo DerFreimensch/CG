@@ -297,21 +297,21 @@ void draw(std::vector<Figure>& figures, int x1, int y1, int x2, int y2){
 std::vector<Figure> init(){
     std::vector<Figure>res;
     std::vector<Matrix>pts;
-    pts.emplace_back(Matrix(300, 400, 100));
     pts.emplace_back(Matrix(400, 400, 100));
-    pts.emplace_back(Matrix(300, 400, 300));
-    pts.emplace_back(Matrix(400, 400, 300));
-    pts.emplace_back(Matrix(300, 300, 100));
+    pts.emplace_back(Matrix(500, 400, 100));
+    pts.emplace_back(Matrix(400, 400, 200));
+    pts.emplace_back(Matrix(500, 400, 200));
     pts.emplace_back(Matrix(400, 300, 100));
-    pts.emplace_back(Matrix(300, 300, 300));
-    pts.emplace_back(Matrix(400, 300, 300));
+    pts.emplace_back(Matrix(500, 300, 100));
+    pts.emplace_back(Matrix(400, 300, 200));
+    pts.emplace_back(Matrix(500, 300, 200));
     res.emplace_back(Figure(pts, 2));
     pts.clear();
 
-    pts.emplace_back(Matrix(50, 400, 100));
-    pts.emplace_back(Matrix(150, 400, 100));
-    pts.emplace_back(Matrix(50, 400, 300));
-    pts.emplace_back(Matrix(150, 400, 300));
+    pts.emplace_back(Matrix(50, 500, 100));
+    pts.emplace_back(Matrix(150, 500, 100));
+    pts.emplace_back(Matrix(50, 500, 300));
+    pts.emplace_back(Matrix(150, 500, 300));
     pts.emplace_back(Matrix(50, 250, 100));
     pts.emplace_back(Matrix(150, 250, 100));
     pts.emplace_back(Matrix(50, 250, 300));
